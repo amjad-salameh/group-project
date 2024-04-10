@@ -1,0 +1,209 @@
+body {
+  font-family: "Urbanist", sans-serif;
+  background-color: #141414;
+}
+
+.daniel-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10rem;
+  padding-top: 3rem;
+  color: white;
+}
+/*-------- FAQ - Section ------------------*/
+.faq-section {
+  width: 100%;
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faq-title-btn-container {
+  width: 70%;
+  display: flex;
+  gap: 20rem;
+  position: relative;
+}
+.faq-title-btn-container::after {
+  content: url(../assests/Stars-icon.png);
+  position: absolute;
+  width: 6.84rem;
+  height: 3rem;
+  top: -2rem;
+  left: -2rem;
+}
+.faq-view-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.faq-cards-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.faq-cards-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.faq-arrow-bar {
+  border-top: solid 0.1rem #343434;
+  width: 100%;
+  height: 7.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card-number {
+  font-size: 2rem;
+  color: #999999;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.card-number span {
+  color: white;
+}
+.arrow-btns {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+/*-------- Explore - Section ------------------*/
+.explore-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36.7rem;
+  border-top: solid 0.1rem #343434;
+  border-bottom: solid 0.1rem #343434;
+  position: relative;
+}
+.explore-section::after {
+  content: url(../assests/left-bg-explore.png);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.explore-section::before {
+  content: url(../assests/right-bg-explore.png);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.explore-section-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+}
+
+/*-------- FOOTER - contact and nav section ------------------*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.footer-upper-section {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 45.4rem;
+  gap: 34rem;
+}
+.email-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  height: 100%;
+}
+.input-wrapper {
+  position: relative;
+  display: flex;
+}
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #555;
+}
+.email-input {
+  width: 42.3rem;
+  height: 6.6rem;
+  border: 0.1rem solid #343434;
+  border-radius: 1rem;
+  background-color: transparent;
+  font-size: 1.8rem;
+  padding-left: 4rem;
+  color: white;
+}
+.send-btn {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.footer-nav {
+  display: flex;
+  height: 80%;
+  width: 55%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+/*-------- FOOTER - Copyrights & platforms-links Section ------------------*/
+
+.footer-under-section {
+  width: 100%;
+  height: 10.4rem;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+}
+.footer-under-section-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyrights {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  height: 100%;
+}
+.terms {
+  color: white;
+}
+.platforms-links-container {
+  height: 100%;
+  width: 23.8rem;
+  display: flex;
+  align-items: center;
+}
+.platforms-links {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 23.8rem;
+  gap: 1rem;
+}

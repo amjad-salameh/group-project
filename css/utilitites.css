@@ -1,0 +1,89 @@
+/*--------------------- BUTTONS -----------------------*/
+.grey-btn {
+  color: white;
+  background: #1a1a1a;
+  width: 16rem;
+  height: 6.3rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #343434;
+  font-size: 1.8rem;
+}
+.purple-btn {
+  color: white;
+  width: 19.2rem;
+  height: 6.3rem;
+  background-color: #703bf7;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  border: none;
+}
+.arrow-btn {
+  border: 0.1rem solid #343434;
+  border-radius: 50%;
+  background: #1a1a1a;
+  width: 5.8rem;
+  height: 5.8rem;
+}
+.arrow-btn img {
+  width: 3rem;
+  height: 3rem;
+}
+/*--------------------- FAQ - Cards ----------------------*/
+.faq-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 5rem 5rem 0;
+  width: 51.2rem;
+  height: 34.6rem;
+  border: 0.1rem solid #343434;
+  border-radius: 1.2rem;
+}
+.faq-card h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.faq-card p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #999999;
+}
+.faq-card button {
+  width: 13.4rem;
+  height: 6rem;
+}
+/*---------------- CONTENT - structures ----------------------*/
+.section-content {
+  display: flex;
+  flex-direction: column;
+}
+.section-content h1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+.section-content p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #999999;
+}
+/*-------------------- FOOTER ---------------------------------*/
+.footer-links-container {
+  height: 100%;
+  font-size: 1.8rem;
+  line-height: 5rem;
+}
+.footer-links-container h2 {
+  color: #999999;
+  font-size: 2rem;
+}
+.platform {
+  background-color: #fff;
+  height: 5.2rem;
+  width: 5.2rem;
+  border-radius: 50%;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
